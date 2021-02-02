@@ -1,12 +1,15 @@
 In this repository, you can find scripts written in Python that can be used through the software Gwyddion.
 
-Gwyddion overview
+GWYDDION OVERVIEW
+
 Gwyddion is a Free and Open Source software for SPM (scanning probe microscopy) data visualization and analysis. It is a powerful, modular program that is very convenient for much of the data analysis we do. Gwyddion does not have all of the functionality someone may need but allows for python scripting to add additional features. More info in the website of [Gwyddion](http://gwyddion.net/) and its [Python Scripting](http://gwyddion.net/documentation/user-guide-en/pygwy.html) support.
 
-Installation
+INSTALLATION
+
 In order to install Gwyddion and its Python console (pygwy) you need to follow the steps in the website found [here](http://gwyddion.net/documentation/user-guide-en/installation-ms-windows.html#installation-ms-windows-pygwy). After installing 32-bit version of Gwyddion, Python 2.7.16 and the three Python packages you're good to go.
 
-Info for 'Automated Analysis Script.py'
+INFO FOR 'Automated Analysis Script.py'
+
 For this script to work, the module called gwy is imported through the code (command 'import gwy') from Gwyddion's bin folder directory.
 In my case it was "C:/Program Files (x86)/Gwyddion/bin".
 There's a chance yours is different so in that case, please change manually the directory inside the code yourself (it's in the 11th line).
@@ -22,7 +25,8 @@ This script does a lot of things:
 Python file named "collage_maker" must always be in the same folder as the script, because it is needed to create the collage of the images. (a Compiled Python File with the same name appears after first run).
 Ignore the first 3 warnings (** (python.exe:13424): WARNING **, etc.), it is normal for them to appear and according to the developers they cannot be avoided. 
 
-Info for 'Scripts run in pygwy' folder
+INFO FOR 'Scripts run in pygwy' folder
+
 After installing Python Console (pygwy) in Gwyddion (see "Installation" section), you can start using commands and scripts in the software.
 Open and use pygwy:
 To open the console, after opened Gwyddion(32bit), go to Data Process → Pygwy Console. A window appears from which you can run Python commands. In this case the Python code can interact with the current Gwyddion instance in various ways.
